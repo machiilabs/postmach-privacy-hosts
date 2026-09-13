@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "ads": {
+    "hosts": [
+      "taboola.com",
+      "liadm.com",
+      "liveintent.com",
+      "doubleclick.net",
+      "googlesyndication.com",
+      "adnxs.com",
+      "criteo.com",
+      "outbrain.com"
+    ],
+    "hostPrefixes": ["sli.", "ads."],
+    "pathContains": []
+  },
+  "trackers": {
+    "hosts": [
+      "mailtrack.io",
+      "mltrk.io",
+      "t.yesware.com",
+      "mailfoogae.appspot.com",
+      "bl-1.com",
+      "getnotify.com"
+    ],
+    "hostPrefixes": [],
+    "pathContains": ["/track/open", "/wf/open"]
+  }
+}
