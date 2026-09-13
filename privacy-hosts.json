@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "ads": {
     "hosts": [
       "taboola.com",
@@ -9,9 +9,11 @@
       "googlesyndication.com",
       "adnxs.com",
       "criteo.com",
-      "outbrain.com"
+      "outbrain.com",
+      "jeeng.com",
+      "powerinbox.com"
     ],
-    "hostPrefixes": ["sli.", "ads."],
+    "hostPrefixes": ["sli.", "ads.", "rs-stripe."],
     "pathContains": []
   },
   "trackers": {
