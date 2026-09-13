@@ -1,11 +1,11 @@
 # postmach-privacy-hosts
 
-The ad and email-tracker block list for [PostMach](https://github.com/pkleim10/PostMach), the free, private Mac + iOS mail client. When the user turns on **Settings → Privacy → Block known ads and trackers**, PostMach skips fetching any remote image whose URL matches this list and collapses the empty slot. No request is ever made for a matched URL.
+The ad and email-tracker block list for [PostMach](https://machiilabs.com), the free, private Mac + iOS mail client. When the user turns on **Settings → Privacy → Block known ads and trackers**, PostMach skips fetching any remote image whose URL matches this list and collapses the empty slot. No request is ever made for a matched URL.
 
 PostMach ships with a baked-in copy of this list, so the feature works offline and keeps working even if this repo disappears. While the setting is on, the app refreshes from this file at most once every 7 days via jsDelivr:
 
 ```
-https://cdn.jsdelivr.net/gh/pkleim10/postmach-privacy-hosts@main/privacy-hosts.json
+https://cdn.jsdelivr.net/gh/machiilabs/postmach-privacy-hosts@main/privacy-hosts.json
 ```
 
 The fetch is an anonymous, cookie-less GET with no device or account identifiers.
