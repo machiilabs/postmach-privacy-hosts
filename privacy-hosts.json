@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "ads": {
     "hosts": [
       "taboola.com",
@@ -11,13 +11,21 @@
       "criteo.com",
       "outbrain.com",
       "jeeng.com",
-      "powerinbox.com"
+      "powerinbox.com",
+      "pea.truthinfacts.com",
+      "offers.truthinfacts.com"
     ],
-    "hostPrefixes": ["sli.", "ads.", "rs-stripe."],
+    "hostPrefixes": [
+      "sli.",
+      "ads.",
+      "rs-stripe."
+    ],
     "pathContains": []
   },
   "trackers": {
     "hosts": [
+      "s1.truthinfacts.com",
+      "s2.truthinfacts.com",
       "mailtrack.io",
       "mltrk.io",
       "t.yesware.com",
@@ -26,6 +34,9 @@
       "getnotify.com"
     ],
     "hostPrefixes": [],
-    "pathContains": ["/track/open", "/wf/open"]
+    "pathContains": [
+      "/track/open",
+      "/wf/open"
+    ]
   }
 }
